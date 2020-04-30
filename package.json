@@ -1,0 +1,27 @@
+{
+  "name": "shield-tdd-workshop",
+  "version": "1.0.0",
+  "description": "TDD workshop for PHP/JS",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "jest": {
+    "testPathIgnorePatterns": [
+      "/node_modules/"
+    ]
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Kadonite/shield-tdd-workshop.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Kadonite/shield-tdd-workshop/issues"
+  },
+  "homepage": "https://github.com/Kadonite/shield-tdd-workshop#readme",
+  "dependencies": {
+    "jest": "^25.5.2"
+  }
+}
