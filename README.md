@@ -44,3 +44,10 @@ Write only the bare minimum code required to make the failing test pass while en
 **REFACTOR: Refactor the code you wrote.**
 
 Is there any chance to make your code simpler? Can some tidy ups be made?
+
+**REFACTOR: Testing your implementation.**
+
+Jest/JS: "npm test" package.json has been configured using the scripts:"test" to run all jest tests by default
+PHPunit/PHP "php vendor/bin/phpunit" PHPunit has been configured via phpunit.xml to run all test in /tests.
+
+** Don't forget npm install, Composer install before trying to run the project.
