@@ -1,4 +1,5 @@
 <?php
+namespace RomanToDecimal;
 
 class RomanToDecimal
 {

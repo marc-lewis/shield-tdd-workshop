@@ -1,6 +1,7 @@
 <?php
 
 use PHPUnit\Framework\TestCase;
+use RomanToDecimal\RomanToDecimal;
 
 class RomanToDecimalTest extends TestCase
 {
