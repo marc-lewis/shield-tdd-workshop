@@ -1,14 +1,13 @@
-<?php declare(strict_types=1);
+<?php
 
 use PHPUnit\Framework\TestCase;
-use TDD\TDD;
 
-final class TDDTest extends TestCase
+class RomanToDecimalTest extends TestCase
 {
-    public function testTrue()
+    public function testRomanToDecimal()
     {
-        $TDD = new TDD();
-        $this->assertTrue($TDD->returnTrue());
+        $romanToDecimal = new RomanToDecimal();
+        $this->assertEquals($romanToDecimal->convert('V'), 5);
     }
 }
 
