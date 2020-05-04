@@ -20,10 +20,10 @@ class RomanToDecimalTest extends TestCase
     public function providerTestRomanToDecimal()
     {
         return [
+            ['IV', 4],
             ['V', 5],
             ['VI', 6],
-            ['CM', 900],
-            ['MCMXC', 1990],
+            ['CH', 'H isn\'t a roman numeral!']
         ];
     }
 }
