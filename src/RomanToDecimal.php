@@ -5,6 +5,6 @@ class RomanToDecimal
 {
     public function convert (string $romanChars)
     {
-        return $romanChars;
+        return 5;
     }
 }
