@@ -22,7 +22,8 @@ class RomanToDecimalTest extends TestCase
         return [
             ['V', 5],
             ['VI', 6],
-            ['CM', 900]
+            ['CM', 900],
+            ['MCMXC', 1990],
         ];
     }
 }

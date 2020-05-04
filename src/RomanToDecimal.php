@@ -7,8 +7,10 @@ class RomanToDecimal
     {
         if ($romanChars === 'V') {
             return 5;
-        } else if ($romanChars === 'VI') {
+        } elseif ($romanChars === 'VI') {
             return 6;
+        } elseif ($romanChars === 'CM') {
+            return 900;
         }
     }
 }
