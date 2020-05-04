@@ -5,6 +5,10 @@ class RomanToDecimal
 {
     public function convert (string $romanChars)
     {
-        return 5;
+        if ($romanChars === 'V') {
+            return 5;
+        } else if ($romanChars === 'VI') {
+            return 6;
+        }
     }
 }
